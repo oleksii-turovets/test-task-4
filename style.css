@@ -1,0 +1,71 @@
+*{
+    box-sizing: border-box;
+}
+
+.squares {
+    height: 500px;
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+[class*="square-"] {
+    height: 100px;
+    width: 100px;
+    padding: 10px;
+    background-color: rgb(216, 216, 216);
+    border-radius: 10px;
+    
+}
+
+[class*="square-"] {
+    margin: 0;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.circle {
+    height: 20px;
+    width: 20px;
+    background-color: black;
+    border-radius: 50%;
+}
+
+.square-1 {
+    justify-content: center;
+    align-items: center;
+}
+
+.square-2 {
+    align-content: space-between;
+    justify-content: space-between;
+}
+
+.square-2 .circle-2 {
+    align-self: flex-end;
+}
+
+.square-3 {
+    align-content: center;
+    justify-content: space-between;
+}
+
+.square-3 .circle-1 {
+    align-self: flex-start;
+}
+.square-3 .circle-3 {
+    align-self: flex-end;
+}
+
+.square-4 {
+    
+}
+
+.square-5 {
+    
+}
+
+.square-6 {
+    
+}
